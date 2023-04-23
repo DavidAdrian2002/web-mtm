@@ -1,0 +1,302 @@
+body {
+    background-image: url(imagnes/fondo\ de\ pantalla.webp);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fondo {
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 20px 0px 10px;
+}
+
+.fondo:hover {
+    transform: rotateY(360deg);
+    transition: all 1s ease-out;
+}
+
+.opciones {
+    background-color: silver;
+}
+
+.barra {
+    list-style: none;
+    padding: 0;
+    background: silver;
+    width: 90%;
+    max-width: 1000%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.barra li a {
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    display: block;
+
+}
+
+.barra li {
+    display: inline-block;
+    text-align: center;
+
+}
+
+.barra li:hover {
+    background: gold;
+    border-radius: 20px;
+}
+
+.contenedortotal {
+    display: flex;
+}
+
+.contenedortotal2 {
+    display: flex;
+}
+
+
+.caja1 figure {
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    cursor: pointer;
+
+}
+
+.caja2 figure {
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    cursor: pointer;
+
+}
+
+.caja3 figure {
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    cursor: pointer;
+
+}
+
+
+
+
+.caja1 figure img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.caja2 figure img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.caja3 figure img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+
+
+.caja1 figure .capa1 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(11, 103, 123, 0.6);
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.caja2 figure .capa2 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(11, 103, 123, 0.6);
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.caja3 figure .capa3 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(11, 103, 123, 0.6);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+
+
+.caja1:hover {
+    transform: scale(1.10);
+    transition: all 500ms;
+}
+
+.caja2:hover {
+    transform: scale(1.10);
+    transition: all 500ms;
+}
+
+.caja3:hover {
+    transform: scale(1.10);
+    transition: all 500ms;
+}
+
+
+
+.caja1 figure:hover>.capa1 {
+    opacity: 1;
+    visibility: visible;
+    transition: all 500ms ease-out;
+}
+
+.caja2 figure:hover>.capa2 {
+    opacity: 1;
+    visibility: visible;
+    transition: all 500ms ease-out;
+}
+
+.caja3 figure:hover>.capa3 {
+    opacity: 1;
+    visibility: visible;
+    transition: all 500ms ease-out;
+}
+
+.caja4 figure:hover>.capa4 {
+    opacity: 1;
+    visibility: visible;
+    transition: all 500ms ease-out;
+}
+
+.caja5 figure:hover>.capa5 {
+    opacity: 1;
+    visibility: visible;
+    transition: all 500ms ease-out;
+}
+
+.caja6 figure:hover>.capa6 {
+    opacity: 1;
+    visibility: visible;
+    transition: all 500ms ease-out;
+}
+
+.caja4 figure {
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    cursor: pointer;
+
+}
+
+.caja5 figure {
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    cursor: pointer;
+
+}
+
+.caja6 figure {
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    cursor: pointer;
+}
+
+.caja4 figure img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.caja5 figure img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.caja6 figure img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.caja4 figure .capa4 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(11, 103, 123, 0.6);
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.caja5 figure .capa5 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(11, 103, 123, 0.6);
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.caja6 figure .capa6 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(11, 103, 123, 0.6);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.caja4:hover {
+    transform: scale(1.10);
+    transition: all 500ms;
+}
+
+.caja5:hover {
+    transform: scale(1.10);
+    transition: all 500ms;
+}
+
+.caja6:hover {
+    transform: scale(1.10);
+    transition: all 500ms;
+}

@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.h1 {
+    background: #161569;
+    color: white;
+    width: 70%;
+    font-family: consolas;
+    border: 1px solid #ff5733;
+    border-radius: 8px;
+}
+
+body {
+    background-image: url(imagnes/fondo\ de\ pantalla.webp);
+}
+
+.contenedor {
+    align-content: center;
+    justify-content: center;
+    display: grid;
+    height: 100vh;
+}
+
+.btn {
+    border: 3px solid rgba(100, 100, 100, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 300px;
+    font-family: consolas;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #FFF;
+    background-size: 300%;
+
+}
+
+.btn:hover {
+    background-position: right;
+    transition: 2s;
+}
+
+.btn1 {
+    background-image: linear-gradient(to left, #0007da, #161569, #0087da);
+
+}
+
+.btn2 {
+    background-image: linear-gradient(to left, #0950a1, #2d3a54, #0950a1);
+
+}
+
+.btn3 {
+    background-image: linear-gradient(to left, #ffcae3, #ff499d, #ffcae3);
+
+}
+
+.btn4 {
+    background-image: linear-gradient(to left, #ff5733, #881857, #ff5733);
+
+}
